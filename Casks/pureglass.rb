@@ -5,7 +5,7 @@ cask "pureglass" do
   url "https://github.com/GRJY/PureGlass/releases/download/v#{version}/PureGlass.zip",
       verified: "github.com/GRJY/PureGlass/"
   name "PureGlass"
-  desc "Native Liquid Glass Mac cleaner and system monitor for macOS 26"
+  desc "Liquid Glass disk cleaner and live system monitor"
   homepage "https://github.com/GRJY/PureGlass"
 
   depends_on macos: :tahoe
