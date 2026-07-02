@@ -8,7 +8,7 @@ cask "pureglass" do
   desc "Native Liquid Glass Mac cleaner and system monitor for macOS 26"
   homepage "https://github.com/GRJY/PureGlass"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "PureGlass.app"
 
